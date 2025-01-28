@@ -1,0 +1,23 @@
+services:
+  authenticationandauthorization:
+    image: ${DOCKER_REGISTRY-}authenticationandauthorization
+    container_name: auth.api
+    build:
+      context: .
+      dockerfile: AuthenticationAndAuthorization/Dockerfile
+    ports:
+        - "5000:5000"
+        - "5001:5001"   
+  database.auth:
+    image: postgres:latest
+    container_name: database.auth
+    environment:
+       - POSTGRES_DB=authdb
+       - POSTGRES_USER=user123
+       - POSTGRES_PASSWORD=pass123
+    volumes:
+       - db-auth:/var/lib/postgresql/data
+    ports:
+       - 5432:5432
+volumes:
+  db-auth:  

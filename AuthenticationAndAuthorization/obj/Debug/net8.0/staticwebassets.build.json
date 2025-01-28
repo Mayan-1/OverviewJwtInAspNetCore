@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "EKUdkHxoFgBEroZptdpNv0ltK7mePHBF3lCStP0fN4Q=",
+  "Source": "AuthenticationAndAuthorization",
+  "BasePath": "_content/AuthenticationAndAuthorization",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
