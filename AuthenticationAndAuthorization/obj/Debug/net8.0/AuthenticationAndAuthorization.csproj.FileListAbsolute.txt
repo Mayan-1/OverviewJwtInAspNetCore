@@ -111,7 +111,6 @@ C:\dev\AuthenticationAndAuthorization\src\AuthenticationAndAuthorization\Authent
 C:\dev\AuthenticationAndAuthorization\src\AuthenticationAndAuthorization\AuthenticationAndAuthorization\obj\Debug\net8.0\AuthenticationAndAuthorization.pdb
 C:\dev\AuthenticationAndAuthorization\src\AuthenticationAndAuthorization\AuthenticationAndAuthorization\obj\Debug\net8.0\AuthenticationAndAuthorization.genruntimeconfig.cache
 C:\dev\AuthenticationAndAuthorization\src\AuthenticationAndAuthorization\AuthenticationAndAuthorization\obj\Debug\net8.0\ref\AuthenticationAndAuthorization.dll
-C:\dev\AuthenticationAndAuthorization\src\AuthenticationAndAuthorization\AuthenticationAndAuthorization\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\dev\AuthenticationAndAuthorization\src\AuthenticationAndAuthorization\AuthenticationAndAuthorization\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\dev\AuthenticationAndAuthorization\src\AuthenticationAndAuthorization\AuthenticationAndAuthorization\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
 C:\dev\AuthenticationAndAuthorization\src\AuthenticationAndAuthorization\AuthenticationAndAuthorization\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
@@ -120,3 +119,5 @@ C:\dev\AuthenticationAndAuthorization\src\AuthenticationAndAuthorization\Authent
 C:\dev\AuthenticationAndAuthorization\src\AuthenticationAndAuthorization\AuthenticationAndAuthorization\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\dev\AuthenticationAndAuthorization\src\AuthenticationAndAuthorization\AuthenticationAndAuthorization\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\dev\AuthenticationAndAuthorization\src\AuthenticationAndAuthorization\AuthenticationAndAuthorization\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\dev\AuthenticationAndAuthorization\src\AuthenticationAndAuthorization\authenticationandauthorization\obj\Debug\net8.0\AuthenticationAndAuthorization.sourcelink.json
+C:\dev\AuthenticationAndAuthorization\src\AuthenticationAndAuthorization\AuthenticationAndAuthorization\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

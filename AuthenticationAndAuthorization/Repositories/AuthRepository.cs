@@ -2,6 +2,7 @@
 using AuthenticationAndAuthorization.DTOs;
 using AuthenticationAndAuthorization.Models;
 using AuthenticationAndAuthorization.Services;
+using Microsoft.Extensions.Configuration;
 
 namespace AuthenticationAndAuthorization.Repositories
 {
@@ -9,15 +10,17 @@ namespace AuthenticationAndAuthorization.Repositories
     {
         private readonly IUserRepository _userRepository;
         private readonly ITokenService _tokenService;
+        private readonly AppDbContext _context;
 
 
-        public AuthRepository(IUserRepository userRepository, ITokenService tokenService)
+        public AuthRepository(IUserRepository userRepository, ITokenService tokenService, AppDbContext context)
         {
             _userRepository = userRepository;
             _tokenService = tokenService;
+            _context = context;
         }
 
-        public async Task<string> Login(LoginCommand login)
+        public async Task<TokenModel> Login(LoginCommand login)
         {
             var user = await _userRepository.GetByEmailAsync(login.Email);
 
@@ -33,9 +36,20 @@ namespace AuthenticationAndAuthorization.Repositories
                 throw new ArgumentException("Password do not match");
             }
 
-            var token = _tokenService.GenerateToken(user);
+            var acessToken = _tokenService.GenerateToken(user);
+            var refreshToken = _tokenService.GenerateRefreshToken();
 
-            return token;
+            user.RefreshTokenExpiryTime = DateTime.UtcNow.AddMinutes(60);
+            user.RefreshToken = refreshToken;
+
+            _context.User.Update(user);
+            await _context.SaveChangesAsync();
+
+            return new TokenModel
+            {
+                AcessToken = acessToken,
+                RefreshToken = refreshToken
+            };
         }
 
         public bool ComparePassword(User user, string password)
@@ -48,6 +62,42 @@ namespace AuthenticationAndAuthorization.Repositories
 
             return true;
             
+        }
+
+        public async Task<TokenModel> GenerateNewAcessToken(TokenModel model, string email)
+        {
+            string acessToken = model.AcessToken;
+            string refreshToken = model.RefreshToken;
+
+            var principal = _tokenService.GetPrincipalFromExpiredToken(acessToken);
+
+            if (principal is null)
+                throw new ArgumentException("Invalid access/refresh token");
+
+            var user = await _userRepository.GetByEmailAsync(email);
+
+            if (user == null || user.RefreshToken != refreshToken
+            || user.RefreshTokenExpiryTime <= DateTime.Now)
+            {
+                throw new ArgumentException("Invalid access/refresh token");
+            }
+
+            var newAccessToken = _tokenService.GenerateToken(user);
+
+            var newRefreshToken = _tokenService.GenerateRefreshToken();
+
+            user.RefreshToken = newRefreshToken;
+
+            _context.User.Update(user);
+            await _context.SaveChangesAsync();
+
+            return new TokenModel
+            {
+                AcessToken = acessToken,
+                RefreshToken = refreshToken,
+            };
+
+
         }
     }
 }

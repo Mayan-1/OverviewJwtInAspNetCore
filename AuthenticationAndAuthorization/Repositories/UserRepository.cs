@@ -32,6 +32,8 @@ namespace AuthenticationAndAuthorization.Repositories
             return "Usuário criado com sucesso";
         }
 
+
+
         public async Task<User> GetByEmailAsync(string email)
         {
             var user = await _context.User.FirstOrDefaultAsync(x => x.Email == email);

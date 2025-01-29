@@ -7,28 +7,20 @@
       "RelativeMoniker": "D:0:0:{A504AC4B-9438-4848-AD48-D7DAD97B9389}|AuthenticationAndAuthorization\\AuthenticationAndAuthorization.csproj|solutionrelative:authenticationandauthorization\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A504AC4B-9438-4848-AD48-D7DAD97B9389}|AuthenticationAndAuthorization\\AuthenticationAndAuthorization.csproj|c:\\dev\\authenticationandauthorization\\src\\authenticationandauthorization\\authenticationandauthorization\\extensions\\authenticationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A504AC4B-9438-4848-AD48-D7DAD97B9389}|AuthenticationAndAuthorization\\AuthenticationAndAuthorization.csproj|solutionrelative:authenticationandauthorization\\extensions\\authenticationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A504AC4B-9438-4848-AD48-D7DAD97B9389}|AuthenticationAndAuthorization\\AuthenticationAndAuthorization.csproj|c:\\dev\\authenticationandauthorization\\src\\authenticationandauthorization\\authenticationandauthorization\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A504AC4B-9438-4848-AD48-D7DAD97B9389}|AuthenticationAndAuthorization\\AuthenticationAndAuthorization.csproj|solutionrelative:authenticationandauthorization\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A504AC4B-9438-4848-AD48-D7DAD97B9389}|AuthenticationAndAuthorization\\AuthenticationAndAuthorization.csproj|c:\\dev\\authenticationandauthorization\\src\\authenticationandauthorization\\authenticationandauthorization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A504AC4B-9438-4848-AD48-D7DAD97B9389}|AuthenticationAndAuthorization\\AuthenticationAndAuthorization.csproj|solutionrelative:authenticationandauthorization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A504AC4B-9438-4848-AD48-D7DAD97B9389}|AuthenticationAndAuthorization\\AuthenticationAndAuthorization.csproj|c:\\dev\\authenticationandauthorization\\src\\authenticationandauthorization\\authenticationandauthorization\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A504AC4B-9438-4848-AD48-D7DAD97B9389}|AuthenticationAndAuthorization\\AuthenticationAndAuthorization.csproj|solutionrelative:authenticationandauthorization\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A504AC4B-9438-4848-AD48-D7DAD97B9389}|AuthenticationAndAuthorization\\AuthenticationAndAuthorization.csproj|c:\\dev\\authenticationandauthorization\\src\\authenticationandauthorization\\authenticationandauthorization\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A504AC4B-9438-4848-AD48-D7DAD97B9389}|AuthenticationAndAuthorization\\AuthenticationAndAuthorization.csproj|solutionrelative:authenticationandauthorization\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A504AC4B-9438-4848-AD48-D7DAD97B9389}|AuthenticationAndAuthorization\\AuthenticationAndAuthorization.csproj|c:\\dev\\authenticationandauthorization\\src\\authenticationandauthorization\\authenticationandauthorization\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A504AC4B-9438-4848-AD48-D7DAD97B9389}|AuthenticationAndAuthorization\\AuthenticationAndAuthorization.csproj|solutionrelative:authenticationandauthorization\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A504AC4B-9438-4848-AD48-D7DAD97B9389}|AuthenticationAndAuthorization\\AuthenticationAndAuthorization.csproj|c:\\dev\\authenticationandauthorization\\src\\authenticationandauthorization\\authenticationandauthorization\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A504AC4B-9438-4848-AD48-D7DAD97B9389}|AuthenticationAndAuthorization\\AuthenticationAndAuthorization.csproj|solutionrelative:authenticationandauthorization\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A504AC4B-9438-4848-AD48-D7DAD97B9389}|AuthenticationAndAuthorization\\AuthenticationAndAuthorization.csproj|c:\\dev\\authenticationandauthorization\\src\\authenticationandauthorization\\authenticationandauthorization\\repositories\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A504AC4B-9438-4848-AD48-D7DAD97B9389}|AuthenticationAndAuthorization\\AuthenticationAndAuthorization.csproj|solutionrelative:authenticationandauthorization\\repositories\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\dev\\AuthenticationAndAuthorization\\src\\AuthenticationAndAuthorization\\AuthenticationAndAuthorization\\appsettings.json",
+              "RelativeDocumentMoniker": "AuthenticationAndAuthorization\\appsettings.json",
+              "ToolTip": "C:\\dev\\AuthenticationAndAuthorization\\src\\AuthenticationAndAuthorization\\AuthenticationAndAuthorization\\appsettings.json",
+              "RelativeToolTip": "AuthenticationAndAuthorization\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-29T00:27:01.845Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -48,87 +53,48 @@
               "RelativeDocumentMoniker": "AuthenticationAndAuthorization\\Services\\TokenService.cs",
               "ToolTip": "C:\\dev\\AuthenticationAndAuthorization\\src\\AuthenticationAndAuthorization\\AuthenticationAndAuthorization\\Services\\TokenService.cs",
               "RelativeToolTip": "AuthenticationAndAuthorization\\Services\\TokenService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCIAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T16:27:49.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthenticationExtensions.cs",
-              "DocumentMoniker": "C:\\dev\\AuthenticationAndAuthorization\\src\\AuthenticationAndAuthorization\\AuthenticationAndAuthorization\\Extensions\\AuthenticationExtensions.cs",
-              "RelativeDocumentMoniker": "AuthenticationAndAuthorization\\Extensions\\AuthenticationExtensions.cs",
-              "ToolTip": "C:\\dev\\AuthenticationAndAuthorization\\src\\AuthenticationAndAuthorization\\AuthenticationAndAuthorization\\Extensions\\AuthenticationExtensions.cs",
-              "RelativeToolTip": "AuthenticationAndAuthorization\\Extensions\\AuthenticationExtensions.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBQAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T16:25:44.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\dev\\AuthenticationAndAuthorization\\src\\AuthenticationAndAuthorization\\AuthenticationAndAuthorization\\appsettings.json",
-              "RelativeDocumentMoniker": "AuthenticationAndAuthorization\\appsettings.json",
-              "ToolTip": "C:\\dev\\AuthenticationAndAuthorization\\src\\AuthenticationAndAuthorization\\AuthenticationAndAuthorization\\appsettings.json",
-              "RelativeToolTip": "AuthenticationAndAuthorization\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-28T16:14:39.741Z",
+              "WhenOpened": "2025-01-29T00:22:07.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\dev\\AuthenticationAndAuthorization\\src\\AuthenticationAndAuthorization\\AuthenticationAndAuthorization\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "AuthenticationAndAuthorization\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\dev\\AuthenticationAndAuthorization\\src\\AuthenticationAndAuthorization\\AuthenticationAndAuthorization\\Controllers\\UserController.cs",
-              "RelativeToolTip": "AuthenticationAndAuthorization\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAkwCQAAAAYAAAAAAAAAA==",
+              "Title": "IAuthRepository.cs",
+              "DocumentMoniker": "C:\\dev\\AuthenticationAndAuthorization\\src\\AuthenticationAndAuthorization\\AuthenticationAndAuthorization\\Repositories\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "AuthenticationAndAuthorization\\Repositories\\IAuthRepository.cs",
+              "ToolTip": "C:\\dev\\AuthenticationAndAuthorization\\src\\AuthenticationAndAuthorization\\AuthenticationAndAuthorization\\Repositories\\IAuthRepository.cs",
+              "RelativeToolTip": "AuthenticationAndAuthorization\\Repositories\\IAuthRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T16:14:06.917Z",
+              "WhenOpened": "2025-01-29T00:16:30.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "AuthRepository.cs",
               "DocumentMoniker": "C:\\dev\\AuthenticationAndAuthorization\\src\\AuthenticationAndAuthorization\\AuthenticationAndAuthorization\\Repositories\\AuthRepository.cs",
               "RelativeDocumentMoniker": "AuthenticationAndAuthorization\\Repositories\\AuthRepository.cs",
               "ToolTip": "C:\\dev\\AuthenticationAndAuthorization\\src\\AuthenticationAndAuthorization\\AuthenticationAndAuthorization\\Repositories\\AuthRepository.cs",
               "RelativeToolTip": "AuthenticationAndAuthorization\\Repositories\\AuthRepository.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T16:10:15.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\dev\\AuthenticationAndAuthorization\\src\\AuthenticationAndAuthorization\\AuthenticationAndAuthorization\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "AuthenticationAndAuthorization\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\dev\\AuthenticationAndAuthorization\\src\\AuthenticationAndAuthorization\\AuthenticationAndAuthorization\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "AuthenticationAndAuthorization\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T16:09:37.917Z",
+              "WhenOpened": "2025-01-29T00:11:23.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\dev\\AuthenticationAndAuthorization\\src\\AuthenticationAndAuthorization\\AuthenticationAndAuthorization\\Program.cs",
-              "RelativeDocumentMoniker": "AuthenticationAndAuthorization\\Program.cs",
-              "ToolTip": "C:\\dev\\AuthenticationAndAuthorization\\src\\AuthenticationAndAuthorization\\AuthenticationAndAuthorization\\Program.cs",
-              "RelativeToolTip": "AuthenticationAndAuthorization\\Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADIAAAA6AAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\dev\\AuthenticationAndAuthorization\\src\\AuthenticationAndAuthorization\\AuthenticationAndAuthorization\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AuthenticationAndAuthorization\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\dev\\AuthenticationAndAuthorization\\src\\AuthenticationAndAuthorization\\AuthenticationAndAuthorization\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AuthenticationAndAuthorization\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T16:07:44.471Z",
+              "WhenOpened": "2025-01-29T00:10:16.929Z",
               "EditorCaption": ""
             }
           ]
